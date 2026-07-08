@@ -2,7 +2,7 @@ import asyncio
 from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = "8875131920:AAE9dyMAYVGgOjYCd6faK_fvQSodG6CDwM8"
+TOKEN = os.environ["TOKEN"]
 CHANNEL = "@AutoBuyNow"
 ADMIN_CHAT_ID = 6797548910
 
